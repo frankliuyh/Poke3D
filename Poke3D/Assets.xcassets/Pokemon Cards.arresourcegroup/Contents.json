@@ -5,7 +5,10 @@
   },
   "resources" : [
     {
-      "filename" : "eevee-card.arreferenceimage"
+      "filename" : "eevee.arreferenceimage"
+    },
+    {
+      "filename" : "oddish.arreferenceimage"
     }
   ]
 }

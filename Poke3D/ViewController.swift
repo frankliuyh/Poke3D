@@ -64,11 +64,13 @@ class ViewController: UIViewController, ARSCNViewDelegate {
             
             node.addChildNode(planeNode)
             
-            if let pokeScene = SCNScene(named: "art.scnassets/eevee.scn") {
-                if let pokeNode = pokeScene.rootNode.childNodes.first {
-                    pokeNode.eulerAngles.x = .pi / 2
-                    
-                    planeNode.addChildNode(pokeNode)
+            if let name = imageAnchor.referenceImage.name {
+                if let pokeScene = SCNScene(named: "art.scnassets/\(name)" + "/\(name).scn") {
+                    if let pokeNode = pokeScene.rootNode.childNodes.first {
+                        pokeNode.eulerAngles.x = .pi / 2
+                        
+                        planeNode.addChildNode(pokeNode)
+                    }
                 }
             }
         }
