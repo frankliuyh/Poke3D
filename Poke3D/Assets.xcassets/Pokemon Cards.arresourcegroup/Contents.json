@@ -5,10 +5,28 @@
   },
   "resources" : [
     {
+      "filename" : "bulbasaur.arreferenceimage"
+    },
+    {
+      "filename" : "charmander.arreferenceimage"
+    },
+    {
       "filename" : "eevee.arreferenceimage"
     },
     {
+      "filename" : "mew.arreferenceimage"
+    },
+    {
       "filename" : "oddish.arreferenceimage"
+    },
+    {
+      "filename" : "pikachu.arreferenceimage"
+    },
+    {
+      "filename" : "psyduck.arreferenceimage"
+    },
+    {
+      "filename" : "squirtle.arreferenceimage"
     }
   ]
 }
