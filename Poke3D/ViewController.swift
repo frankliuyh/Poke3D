@@ -9,10 +9,13 @@
 import UIKit
 import SceneKit
 import ARKit
+import AVFoundation
 
 class ViewController: UIViewController, ARSCNViewDelegate {
 
     @IBOutlet var sceneView: ARSCNView!
+    
+    var audioPlayer : AVAudioPlayer!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -70,11 +73,27 @@ class ViewController: UIViewController, ARSCNViewDelegate {
                         pokeNode.eulerAngles.x = .pi / 2
                         
                         planeNode.addChildNode(pokeNode)
+                        
+                        playSound(soundName: name)
                     }
                 }
             }
         }
         
         return node
+    }
+    
+    func playSound(soundName : String) {
+        
+        let soundURL = Bundle.main.url(forResource: "\(soundName)", withExtension: "wav")
+        
+        do {
+            try audioPlayer = AVAudioPlayer(contentsOf: soundURL!)
+        } catch {
+            print(error)
+        }
+        
+        audioPlayer.play()
+        
     }
 }

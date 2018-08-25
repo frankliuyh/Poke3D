@@ -13,6 +13,14 @@
 		4D5B5532212EFA0300511D6E /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B5530212EFA0300511D6E /* Main.storyboard */; };
 		4D5B5534212EFA0700511D6E /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B5533212EFA0700511D6E /* Assets.xcassets */; };
 		4D5B5537212EFA0700511D6E /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 4D5B5535212EFA0700511D6E /* LaunchScreen.storyboard */; };
+		4D89DE092131165D0060232B /* bulbasaur.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE082131165D0060232B /* bulbasaur.wav */; };
+		4D89DE0B2131166A0060232B /* charmander.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE0A2131166A0060232B /* charmander.wav */; };
+		4D89DE0D213116730060232B /* squirtle.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE0C213116730060232B /* squirtle.wav */; };
+		4D89DE0F213116930060232B /* pikachu.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE0E213116930060232B /* pikachu.wav */; };
+		4D89DE112131169B0060232B /* oddish.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE102131169B0060232B /* oddish.wav */; };
+		4D89DE13213116A60060232B /* psyduck.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE12213116A60060232B /* psyduck.wav */; };
+		4D89DE15213116BB0060232B /* mew.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE14213116BB0060232B /* mew.wav */; };
+		4D89DE17213118860060232B /* eevee.wav in Resources */ = {isa = PBXBuildFile; fileRef = 4D89DE16213118860060232B /* eevee.wav */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +32,14 @@
 		4D5B5533212EFA0700511D6E /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		4D5B5536212EFA0700511D6E /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		4D5B5538212EFA0700511D6E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		4D89DE082131165D0060232B /* bulbasaur.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = bulbasaur.wav; sourceTree = "<group>"; };
+		4D89DE0A2131166A0060232B /* charmander.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = charmander.wav; sourceTree = "<group>"; };
+		4D89DE0C213116730060232B /* squirtle.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = squirtle.wav; sourceTree = "<group>"; };
+		4D89DE0E213116930060232B /* pikachu.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = pikachu.wav; sourceTree = "<group>"; };
+		4D89DE102131169B0060232B /* oddish.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = oddish.wav; sourceTree = "<group>"; };
+		4D89DE12213116A60060232B /* psyduck.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = psyduck.wav; sourceTree = "<group>"; };
+		4D89DE14213116BB0060232B /* mew.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = mew.wav; sourceTree = "<group>"; };
+		4D89DE16213118860060232B /* eevee.wav */ = {isa = PBXFileReference; lastKnownFileType = audio.wav; path = eevee.wav; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -63,8 +79,24 @@
 				4D5B5533212EFA0700511D6E /* Assets.xcassets */,
 				4D5B5535212EFA0700511D6E /* LaunchScreen.storyboard */,
 				4D5B5538212EFA0700511D6E /* Info.plist */,
+				4D89DE072131162C0060232B /* Sound Files */,
 			);
 			path = Poke3D;
+			sourceTree = "<group>";
+		};
+		4D89DE072131162C0060232B /* Sound Files */ = {
+			isa = PBXGroup;
+			children = (
+				4D89DE082131165D0060232B /* bulbasaur.wav */,
+				4D89DE0A2131166A0060232B /* charmander.wav */,
+				4D89DE0C213116730060232B /* squirtle.wav */,
+				4D89DE0E213116930060232B /* pikachu.wav */,
+				4D89DE102131169B0060232B /* oddish.wav */,
+				4D89DE12213116A60060232B /* psyduck.wav */,
+				4D89DE14213116BB0060232B /* mew.wav */,
+				4D89DE16213118860060232B /* eevee.wav */,
+			);
+			path = "Sound Files";
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -126,9 +158,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				4D5B552D212EFA0300511D6E /* art.scnassets in Resources */,
+				4D89DE15213116BB0060232B /* mew.wav in Resources */,
+				4D89DE0B2131166A0060232B /* charmander.wav in Resources */,
+				4D89DE0F213116930060232B /* pikachu.wav in Resources */,
+				4D89DE112131169B0060232B /* oddish.wav in Resources */,
+				4D89DE17213118860060232B /* eevee.wav in Resources */,
 				4D5B5537212EFA0700511D6E /* LaunchScreen.storyboard in Resources */,
 				4D5B5534212EFA0700511D6E /* Assets.xcassets in Resources */,
+				4D89DE13213116A60060232B /* psyduck.wav in Resources */,
 				4D5B5532212EFA0300511D6E /* Main.storyboard in Resources */,
+				4D89DE092131165D0060232B /* bulbasaur.wav in Resources */,
+				4D89DE0D213116730060232B /* squirtle.wav in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
